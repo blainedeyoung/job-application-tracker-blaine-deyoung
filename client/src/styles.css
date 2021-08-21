@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.loginScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: oldlace;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    margin-bottom: 200px;
+    font-size: 200%;
+    color: orangered;
+}
+
+.formInputs {
+    margin: 20px;
+}
+
+.formButtons {
+    height: 30px;
+    width: 150px;
+    margin: 20px;
+}
+
+.mainScreenContainer {
+    height: 100vh;
+    min-height: 1000px;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    height: 200px;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logOutButton {
+   display: inline-block;
+}
+
+.newLeadButton {
+    display: block;
+}
+
+.leadsArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+
+.leadColumn {
+    height: 100%;
+    width: 100%;
+    border: thin black solid;
+}
+
+.leadBody {
+    height: 100px;
+    width: 97%;
+    background-color: aqua;
+    border: thick solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.readoutLine {
+    margin: 5px;
+}
+
+.expandedLeadBody {
+    height: 850px;
+}
+
+.leadButtons {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    margin: 20px;
+}
